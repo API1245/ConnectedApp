@@ -37,7 +37,7 @@
 				<muleVersion>4.4.0</muleVersion>
 				<objectStoreV2>true</objectStoreV2>
 				<applicationName>conn2</applicationName>
-				<connectedGrantType>client_credentials</connectedGrantType>
+				<connectedAppGrantType>client_credentials</connectedAppGrantType>
 				<connectedAppClientId>5836e07d26b24d1382d0a2be78f6d1b6</connectedAppClientId>
 				<connectedAppClientSecret>9D0cE6394C924a7F97eaFbee58c66529</connectedAppClientSecret>
 				</cloudHubDeployment>
