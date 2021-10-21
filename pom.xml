@@ -35,6 +35,7 @@
 				<workers>1</workers>
 				<workerType>Micro</workerType>
 				<muleVersion>4.4.0</muleVersion>
+				<region>us-east-2</region>
 				<objectStoreV2>true</objectStoreV2>
 				<applicationName>conn2</applicationName>
 				<connectedAppGrantType>client_credentials</connectedAppGrantType>
