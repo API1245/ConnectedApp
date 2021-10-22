@@ -33,6 +33,7 @@
 				<cloudHubDeployment>
 				<uri>https://anypoint.mulesoft.com</uri>
 				<environment>SandBox</environment>
+				<businessGroup>Apisero</businessGroup>
 				<username>brucewayne001</username>
 				<password>s9875310559</password>
 				<workers>1</workers>
