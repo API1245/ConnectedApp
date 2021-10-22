@@ -27,20 +27,28 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
+				<version>3.3.5</version>
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
+				<uri>https://anypoint.mulesoft.com</uri>
 				<environment>SandBox</environment>
+				<username>brucewayne001</username>
+				<password>s9875310559</password>
 				<workers>1</workers>
 				<workerType>Micro</workerType>
 				<muleVersion>4.4.0</muleVersion>
 				<region>us-east-2</region>
 				<objectStoreV2>true</objectStoreV2>
 				<applicationName>conn2</applicationName>
+				<properties>
+				
 				<connectedAppGrantType>client_credentials</connectedAppGrantType>
 				<connectedAppClientId>5836e07d26b24d1382d0a2be78f6d1b6</connectedAppClientId>
 				<connectedAppClientSecret>9D0cE6394C924a7F97eaFbee58c66529</connectedAppClientSecret>
+				<anypoint.platform.config.analytics.agent.enabled>true</anypoint.platform.config.analytics.agent.enabled>
+				
+				</properties>
 				</cloudHubDeployment>
 				</configuration>
 			</plugin>
