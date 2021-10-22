@@ -23,5 +23,5 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package deploy'
-    options: '-Dclient_id=$(client_id) -Dclient_secret=$(client_secret) -DmuleDeploy -DskipTests'
+    options: '-DconnectedAppClientId=$(client_id) -DconnectedAppClientSecret=$(client_secret) -DmuleDeploy -DskipTests'
 
