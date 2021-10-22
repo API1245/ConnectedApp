@@ -23,5 +23,5 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package deploy'
-    options: '-DCLOUDHUB_USERNAME=$(client_id) -DCLOUDHUB_PASSWORD=$(client_secret) -DmuleDeploy -DskipTests'
+    options: '-DCLOUDHUB_USERNAME=$(client_id) -DCLOUDHUB_PASSWORD=$(client_secret) -Dgrant_type=client_credentials -DmuleDeploy -DskipTests'
 
